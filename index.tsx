@@ -1174,6 +1174,8 @@ function updateVisualStates() {
           codeParts.forEach((p: HTMLElement) => { p.style.color = "#f87171"; p.style.textDecoration = "line-through"; });
       } else if (isDuplicate) {
            codeParts.forEach((p: HTMLElement) => { p.style.color = "#fb923c"; });
+      } else if (code) {
+           codeParts.forEach((p: HTMLElement) => { p.style.color = "#22c55e"; });
       }
   });
 

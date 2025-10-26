@@ -212,6 +212,9 @@ label {
 .color-box.red {
   background-color: #f87171;
 }
+.color-box.green {
+  background-color: #22c55e;
+}
 .unit-header-row {
   background: transparent !important;
   padding: 10px 0 2px 0;
